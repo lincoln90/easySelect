@@ -109,7 +109,7 @@ textarea{
 }
 
 .scrolableDiv {
-   overflow: auto 
+   overflow: auto
 }
 .divSearcheasySelect{
      border-bottom: 1px solid #cbcbcb!important;
@@ -128,7 +128,7 @@ textarea{
     background-color: #cbcbcb;
 }
 
-.container {
+label.container {
     display:inherit;
     position: relative;
     margin: 0px;
@@ -140,7 +140,7 @@ textarea{
     -ms-user-select: none;
 }
 
-.container input {
+label.container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -159,7 +159,7 @@ textarea{
     border: 1px solid #cbcbcb;
 }
 
-.container input:checked ~ .checkmark {
+label.container input:checked ~ .checkmark {
     background-color: white;
 }
 
@@ -169,11 +169,11 @@ textarea{
     display: none;
 }
 
-.container input:checked ~ .checkmark:after {
+label.container input:checked ~ .checkmark:after {
     display: block;
 }
 
-.container .checkmark:after {
+label.container .checkmark:after {
     left: 5px;
     top: 1px;
     width: 4.5px;
